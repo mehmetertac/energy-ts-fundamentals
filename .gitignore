@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Secrets (do NOT commit your ENTSO-E token)
+.env
+.env.*
+!.env.example
+
+# Local data + Jupyter checkpoints
+data/
+.ipynb_checkpoints/
